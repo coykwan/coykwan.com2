@@ -1,0 +1,29 @@
+/* SplitContainer.scss */
+.split-container {
+  display: flex;
+  height: 100%;
+  padding: 12rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 1rem;
+}
+
+.name{
+  color: #D5E0EC
+}
+
+.left-side {
+  flex: 1;
+  background-color: --var(paper); /* Left side background color */
+}
+
+.right-side {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollable-content {
+  overflow-y: auto;
+  height: 100%;
+}

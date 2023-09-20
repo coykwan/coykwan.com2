@@ -7,4 +7,4 @@ export const Layout: React.FC<{ children: JSX.Element }> = ({ children}) => {
           { children }
         </Container>
     )
-} 
+}

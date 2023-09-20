@@ -1,4 +1,4 @@
-import { styled, Typography } from '@mui/material';
+import { colors, styled, Typography } from '@mui/material';
 
 export const Footer = () => (
     <FooterWrapper>
@@ -8,14 +8,12 @@ export const Footer = () => (
     </FooterWrapper>
   );
   
-  const FooterWrapper = styled('div')(
-    ({ theme }) => `
-      flex: 1;
-      display: flex;
-      justify-content: center;
-  `
-  );
-  
+  const FooterWrapper = styled('div')({
+    position: 'fixed',
+    bottom: 0,
+    color: 'white'
+  })
+
   const FooterText = styled(Typography)`
     text-transform: uppercase;
   `;
