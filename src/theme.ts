@@ -18,6 +18,18 @@ const theme = createTheme({
       paper: "#EDE1D4",
     },
   },
+  components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#2F455C",
+          //no box shadow
+          boxShadow: "none",
+          color: "#D5E0EC",
+        },
+      },
+    },
+  },
 });
 
 export default theme;

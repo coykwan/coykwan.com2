@@ -1,7 +1,6 @@
-/* SplitContainer.scss */
 .split-container {
   display: flex;
-  height: 100%;
+  height: 100vh;
   padding: 12rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -9,21 +8,40 @@
 }
 
 .name{
-  color: #D5E0EC
+  color: #D5E0EC;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.title{
+  color: #D5E0EC;
+  font-size: 2rem;
+  margin-top: 0;
 }
 
 .left-side {
   flex: 1;
-  background-color: --var(paper); /* Left side background color */
+  background-color: --var(default);
+  position: sticky;
+  top: 0;
 }
+
+
 
 .right-side {
   flex: 1;
-  overflow: hidden;
+  overflow-y: hidden;
   position: relative;
+  height: 100%;
+  margin-bottom: 0px;
+
 }
 
 .scrollable-content {
+  position: relative;
   overflow-y: auto;
   height: 100%;
+  padding: 4rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
