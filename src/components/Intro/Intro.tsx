@@ -8,7 +8,7 @@ export const Intro: React.FC = () => {
       <div className={styles["wrapper"]}>
         <p className={styles["intro"]}>
           Back in 2016 I wrote a Python program to do my calculus homework and
-          now one CS degree later I still cant do calculus but I get to write
+          now one CS degree later I still can't do calculus but I get to write
           more fun code.
         </p>
         <p className={styles["intro"]}>
