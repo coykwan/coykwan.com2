@@ -7,3 +7,12 @@
 .title {
     font-size: 24px;
 }
+
+@media (max-width: 768px) {
+        .description {
+        font-size: 12px;
+    }
+    .title {
+        font-size: 12px;
+    }
+}

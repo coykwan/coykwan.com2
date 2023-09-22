@@ -7,3 +7,15 @@
     margin-bottom: 8rem;
     padding: 16px
 }
+
+@media (max-width: 768px) {
+        .intro {
+        color: #D5E0EC;
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    .wrapper {
+        margin-bottom: 0.2rem;
+        padding: 4px
+    }
+}

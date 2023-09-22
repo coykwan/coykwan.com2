@@ -1,3 +1,25 @@
 .footer {
     font-size: 0.8rem;
+    height: fit-content;
+}
+.footerWrapper{
+    color: #D5E0EC;
+    font-size: 6px;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    min-width: 110%;
+}
+
+@media (max-width: 768px) {
+    .footerWrapper{
+        color: #D5E0EC;
+        opacity: 0.3;
+        text-align: center;
+        font-size: 6px;
+        padding: 1rem;
+        padding-right: 3.5rem;
+        margin-top: 1px;
+        margin-bottom: 7rem;
+    }
 }

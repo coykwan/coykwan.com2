@@ -1,10 +1,11 @@
 .split-container {
   display: flex;
-  height: 100vh;
+  height: 100%;
   padding: 12rem;
   padding-top: 0;
   padding-bottom: 0;
   gap: 1rem;
+  width: 100%;
 }
 
 .name{
@@ -24,24 +25,64 @@
   background-color: --var(default);
   position: sticky;
   top: 0;
+  width: 50%;
+
 }
-
-
 
 .right-side {
   flex: 1;
   overflow-y: hidden;
   position: relative;
-  height: 100%;
+  height: 100vh;
   margin-bottom: 0px;
-
+  width: 50%;
 }
 
 .scrollable-content {
   position: relative;
   overflow-y: auto;
-  height: 100%;
+  height: 100vh;
   padding: 4rem;
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .split-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 0.5rem;
+    width: 100%;
+  }
+    .scrollable-content {
+      padding: 1px;
+  }
+    .name{
+    color: #D5E0EC;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+    .title{
+    color: #D5E0EC;
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+    .right-side {
+    flex: 1;
+    overflow-y: hidden;
+    position: relative;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+    .left-side {
+    flex: 1;
+    background-color: --var(default);
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+  }
 }

@@ -2,20 +2,16 @@ import { colors, styled, Typography } from '@mui/material';
 import style from './Footer.module.scss';
 
 export const Footer = () => (
-    <FooterWrapper>
+    <div className={style["footerWrapper"]}>
       <p className={style["footer"]}>
         {new Date().getFullYear()} Made by yours truly using Next.js, Material UI, and TypeScript all deployed with Vercel
       </p>
-    </FooterWrapper>
+    </div>
   );
-  const FooterWrapper = styled("div")({
-    bottom: 0,
-    color: "#D5E0EC",
-    fontsize: "6px",
-    padding: "1rem",
-    marginTop: "1rem",
-  });
-
-  const FooterText = styled(Typography)`
-    text-transform: uppercase;
-  `;
+  // const FooterWrapper = styled("div")({
+  //   color: "#D5E0EC",
+  //   fontsize: "4px",
+  //   padding: "1rem",
+  //   marginTop: "1rem",
+  //   marginBottom: "10rem",
+  // });

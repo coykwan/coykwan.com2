@@ -23,7 +23,7 @@ const SplitContainer: React.FC = () => {
             <Icon
               className="HeaderIcon"
               path={mdiGithub}
-              size={2.0}
+              size={1.5}
               color="#D5E0EC"
             />
           </a>
@@ -31,7 +31,7 @@ const SplitContainer: React.FC = () => {
             <Icon
               className="HeaderIcon"
               path={mdiGmail}
-              size={2.0}
+              size={1.5}
               color="#D5E0EC"
             />
           </a>
@@ -42,7 +42,7 @@ const SplitContainer: React.FC = () => {
             <Icon
               className="HeaderIcon"
               path={mdiLinkedin}
-              size={2.0}
+              size={1.5}
               color="#D5E0EC"
             />
           </a>
