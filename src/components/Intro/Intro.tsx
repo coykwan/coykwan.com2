@@ -18,7 +18,7 @@ export const Intro: React.FC = () => {
         <p className={styles["intro"]}>
           When im not fighting the compiler or in CSS hell you can find me
           wrenching on my car, somewhere on a bicycle or 3d modeling and
-          printing my latest contraption. You can checkout out what else I've been up to below!
+          printing my latest contraption. You can checkout what else I've been up to below!
         </p>
       </div>
     </>
