@@ -16,6 +16,7 @@
     "@mdi/react": "^1.6.0",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.0",
+    "@vercel/analytics": "^1.0.2",
     "material-ui-icons": "^1.0.0-beta.36",
     "material-ui-icons-next": "^1.0.0-beta.17-next",
     "next": "12.2.2",
