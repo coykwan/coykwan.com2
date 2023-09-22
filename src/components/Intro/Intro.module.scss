@@ -7,6 +7,14 @@
     margin-bottom: 8rem;
     padding: 16px
 }
+.intro-email {
+    color: #00aeff;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.intro-email:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 768px) {
         .intro {

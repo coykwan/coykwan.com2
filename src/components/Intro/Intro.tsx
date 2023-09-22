@@ -19,6 +19,7 @@ export const Intro: React.FC = () => {
           When im not fighting the compiler or in CSS hell you can find me
           wrenching on my car, somewhere on a bicycle or 3d modeling and
           printing my latest contraption. You can checkout what else I've been up to below!
+          Alternatively, if you think I can help you build something you can send me a message <a href="mailto:coykwan@gmail.com" className={styles["intro-email"]}>here!</a>
         </p>
       </div>
     </>

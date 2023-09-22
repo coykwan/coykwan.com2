@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.anchor{
+    display: flex;
+}
+.description{
+    color: #D5E0EC;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+    .anchor{
+        display: none;
+    }
+    .description{
+        display: none;
+    }
+}

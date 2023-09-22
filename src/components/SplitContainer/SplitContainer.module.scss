@@ -7,19 +7,16 @@
   gap: 1rem;
   width: 100%;
 }
-
 .name{
   color: #D5E0EC;
   font-size: 6rem;
   margin-bottom: 0;
 }
-
 .title{
   color: #D5E0EC;
   font-size: 2rem;
   margin-top: 0;
 }
-
 .left-side {
   flex: 1;
   background-color: --var(default);
@@ -28,7 +25,6 @@
   width: 50%;
 
 }
-
 .right-side {
   flex: 1;
   overflow-y: hidden;
@@ -37,7 +33,6 @@
   margin-bottom: 0px;
   width: 50%;
 }
-
 .scrollable-content {
   position: relative;
   overflow-y: auto;
@@ -45,6 +40,21 @@
   padding: 4rem;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  scroll-behavior: smooth;
+}
+.projects-blurb{
+  color: #D5E0EC;
+  font-size: 18px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.projects-button {
+    color: #00aeff;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.projects-button:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
