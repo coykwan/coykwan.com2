@@ -7,13 +7,13 @@ export const OccupationSection: React.FC = () => {
       <OccupationCard
         title="RSM - Software Engineer HCD Division"
         subheading="2022 - Present"
-        description="I am currently working as a software engineer at RSM in the Human Centered Design division, RSM's new in-house engineering division. I've worked fullstack on two complete learning management system projects, one for the National Fire Protection Assocation, using React, C#/Dotnet and one Carniegie Learning using Angular, Node, Java in a combination of microservices and monolith architecture. Likewise, practice agile development with all the goodies that come along with it"
+        description="I am currently working as a software engineer at RSM in the Human Centered Design division, RSM's new in-house engineering division. I've worked fullstack on two complete learning management system projects, one for the National Fire Protection Assocation, using React, C#/.NET and one Carniegie Learning using Angular, Node, Java in (mostly) a monolith architecture. Likewise, practice agile development with all the goodies that come along with it"
       />
       <hr className="rounded" />
       <OccupationCard
         title="H&R Block - Software Engineer MyBlock Application"
         subheading="2021 - 2022"
-        description="At H&R Block, I worked on the MyBlock application, a Angualr and C#/Dotnet that millions of people use every year to do their taxes because of this optimizing for speed and heavy user loads was a huge part of the job. If you've ever filed with H&R block you've used a ton of my code! MyBlock uses a microservice architecture and I worked on the front and back end of the application. At H&R Block used agile methodologies and I participated in daily standups, backlog refinements, sprint planning and retrospectives."
+        description="At H&R Block, I worked on the MyBlock application, a Angualr and C#/.NET that millions of people use every year to do their taxes because of this optimizing for speed and heavy user loads was a huge part of the job. If you've ever filed with H&R block you've used a ton of my code! MyBlock uses a microservice architecture and I worked on the front and back end of the application. At H&R Block used agile methodologies and I participated in daily standups, backlog refinements, sprint planning and retrospectives."
       />
       <hr className="rounded" />
       <OccupationCard
