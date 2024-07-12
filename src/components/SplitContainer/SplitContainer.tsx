@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import styles from './SplitContainer.module.scss';
-import OccupationCard from 'components/Card/OccupationCard/OccupationCardComponent';
-import { mdiGithub, mdiGmail, mdiLinkedin } from "@mdi/js";
-import Icon from "@mdi/react";
 import { Intro } from 'components/Intro/Intro';
 import { Footer } from 'components/Footer/Footer';
 import { ScrollAnchors } from 'components/ScrollAnchors/ScrollAnchors';

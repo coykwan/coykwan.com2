@@ -5,13 +5,25 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import styles from "./ProjectCardComponent.module.scss";
 import Image from "next/image";
+import { Button } from "@mui/material";
+import DialogComponent from "components/Dialog/dialog";
+import Slideshow from "components/PhotoSlideShow/slideShow";
 
 export interface ProjectCardProps {
   title: string;
   subheading?: string;
   description: string;
   image: string;
+  showMore?: boolean;
 }
+
+const droneImages: string[] = [
+  "/airframe2.jpg",
+  "/thruster.jpg",
+  "/wing-section.jpg",
+];
+
+
 
 const ProjectCard: React.FC<ProjectCardProps> = (props: ProjectCardProps) => {
   return (
@@ -30,12 +42,17 @@ const ProjectCard: React.FC<ProjectCardProps> = (props: ProjectCardProps) => {
         </Typography>
         <Image
           src={props.image}
-          alt="Bike Frame Image"
+          alt="Project Image"
           width={800}
           height={500}
         />
       </CardContent>
-      <CardActions></CardActions>
+      <CardActions>
+        {props.showMore &&
+          <DialogComponent>
+            <Slideshow images={droneImages} interval={3000} />
+          </DialogComponent>}
+      </CardActions>
     </Card>
   );
 };
