@@ -6,8 +6,8 @@ export const OccupationSection: React.FC = () => {
     <section id="section-two">
       <OccupationCard
         title="RSM - Software Engineer HCD Division"
-        subheading="2022 - Present"
-        description="I am currently working as a software engineer at RSM in the Human Centered Design division, RSM's new in-house engineering division. I've worked fullstack on two complete learning management system projects, one for the National Fire Protection Assocation, using React, C#/.NET and one Carniegie Learning using Angular, Node, Java in (mostly) a monolith architecture. Likewise, practice agile development with all the goodies that come along with it"
+        subheading="2022 - 2024"
+        description="As a software engineer at RSM in the Human Centered Design division, I've worked fullstack on a variety of projects. Three different learning management system projects, one for the National Fire Protection Association, using React, C#/.NET, one Carnegie Learning using Angular, Node, Java in (mostly) a monolith architecture and another in house system for RSM using React and C#/.net, all three were built from the ground up. Along with those projects I also developed several AI powered tools and applications: an in house translation tool for developers to add multilingual accessability to our applications, a tool to populate or enrich thousands of e commerce descriptions and spearheaded the companies research into retrieval augmented generation. I also lead the development of an internal data analytics prototype used to process records with hundreds of thousands of entries and optimized that process to be fast enough to run solely in the browser.  Likewise, we practiced agile development with all the goodies that come along with it"
       />
       <hr className="rounded" />
       <OccupationCard
